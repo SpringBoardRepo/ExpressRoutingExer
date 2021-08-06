@@ -1,5 +1,5 @@
 # ExpressRoutingExer
-- This performs three statistical operations given an arbitrary amount of numbers:
+- This application performs three statistical operations given an arbitrary amount of numbers:
 
 1. mean (average)
 2. median (midpoint)
