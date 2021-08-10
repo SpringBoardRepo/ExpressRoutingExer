@@ -2,7 +2,6 @@ function findMean(nums) {
 
     if (nums.length === 0) return 0;
     return nums.reduce(function (acc, num) {
-        console.log(acc, num)
         return acc + num;
     }) / nums.length;
 }
