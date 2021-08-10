@@ -8,6 +8,10 @@ test('should return the mean', function () {
     expect(findMean(nums)).toBe(54);
 })
 
+test('should not return the null', function () {
+    expect(findMean(nums)).not.toBe(0);
+})
+
 test('should return Median', function () {
     expect(findMedian(nums)).toBe(53);
 })
